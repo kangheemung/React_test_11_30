@@ -1,10 +1,17 @@
 import logo from './logo.svg';
+import Tut from './components/Tut';
+import Let from './components/Let';
+import StateTutorial from './components/StateTutorial';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
+        <Tut />
+        <Let />
+        <StateTutorial />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
