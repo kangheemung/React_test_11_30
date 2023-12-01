@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Tut from './components/Tut';
 import Let from './components/Let';
 import StateTutorial from './components/StateTutorial';
+import EffectTutorial from './components/EffectTutorial';
 import './App.css';
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
         <Tut />
         <Let />
         <StateTutorial />
+        <EffectTutorial />
+        
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
