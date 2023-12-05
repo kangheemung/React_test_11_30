@@ -1,4 +1,4 @@
-import { useLayoutEffect, useEffect, useRef} from "react";
+import { useLayoutEffect, useEffect, useRef } from "react";
 
 function LayoutEffectTutorial() {
     const inputRef = useRef(null);

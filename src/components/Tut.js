@@ -12,6 +12,7 @@ export default function Tut() {
     //.map()
     //.filter()
     //.reduce()
+    //Async+Await+Fetch
     names.map((name)=>{
         return {name} +"1";
         
