@@ -16,10 +16,22 @@ import RefTutorial from './components/RefTutorial';
 import './App.css';
 
 function App() {
+  const age = 0;
+  
+  const increaseAge = ()=> {
+    
+    age = age + 1;
+    
+    console.log(age);
+  }
   return (
     <div className="App">
 
       <header className="App-header">
+      {age}
+      {age}
+      {age}
+      <button onClick = {increaseAge}>Increase Age</button>
         <Tut />
         <Let />
         <StateTutorial />
